@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
@@ -12,43 +12,134 @@
     <header class="heading">
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#" >Home</a>
-            <a href="#" >About</a>
-            <a href="#" >Skill</a>
-            <a href="#" >Project</a>
-            <a href="#" >Contact</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Projects</a>
+            <a href="#">Certificates</a>
+            <a href="#">Contact</a>
         </nav>
-
     </header>
-    <section class="home">
+
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Neha Pednekar</h1>
-            <h3>And I'm a<span class="text"></span></h3>
-            <p> aspiring and enthusiastic software engineer pursuing a degree in Computer Science Engineering.<br> Currently, I am a frontend developer with a passion for creating dynamic and responsive web applications. My journey in the tech world is driven by a love for coding and an eagerness to innovate and learn.</p>
-        <div class="home-sci">
-            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-            <a href="#"><i class='bx bxl-github' ></i></a>
-            <a href="#"><i class='bx bxl-instagram' ></i></a>
-            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-            
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>aspiring and enthusiastic software engineer pursuing a degree in Computer Science Engineering.<br> Currently, I am a frontend developer with a passion for creating dynamic and responsive web applications. My journey in the tech world is driven by a love for coding and an eagerness to innovate and learn.</p>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#" class="btn-btn">More about Me</a>
         </div>
-        <a href="#" class="btn-btn">More about Me</a>
-        </div>
-
     </section>
+
     <section class="about" id="about">
         <div class="about-img">
-            <img src="Img2.jpg">
+            <img src="Img2.jpg" alt="About Image">
         </div>
         <div class="about-text">
-            <h2>About</h2><span>Me</span>
-            <h4>Frontend developer</h4>
+            <h2>About <span>Me</span></h2>
+            <h4>Frontend Developer</h4>
             <p>I am a passionate frontend developer with experience in creating various projects such as an Amazon clone, a basic portfolio, a Tic Tac Toe game, and a Stone Paper Scissors game. I am also a dedicated full-stack learner, continuously enhancing my skills and knowledge. Currently, I have completed my second year in Computer Science and Technology, aiming to become a proficient software engineer.</p>
-
-            <!-- <a href="#" class="btn-btn" -->
         </div>
     </section>
+
+    <section class="skills" id="skills">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-content">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <h3>Amazon Clone</h3>
+                <p>A clone of the Amazon website built with React and Firebase.</p>
+            </div>
+            <div class="project-item">
+                <h3>Tic Tac Toe Game</h3>
+                <p>A simple Tic Tac Toe game built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-item">
+                <h3>Stone Paper Scissors Game</h3>
+                <p>A fun game built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-item">
+                <h3>Basic Portfolio</h3>
+                <p>A basic portfolio to showcase my projects and skills.</p>
+            </div>
+            <div class="project-item">
+                <h3>CourseConnect</h3>
+                <p>A web application to help students find IT and Management colleges.</p>
+            </div>
+            <div class="project-item">
+                <h3>Stopwatch Web App</h3>
+                <p>A responsive stopwatch web application built with HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <h2>My <span>Certificates</span></h2>
+        <div class="certificates-container">
+            <div class="certificate-item">
+                <h3>Web Development</h3>
+                <p>Certificate of completion for a web development course.</p>
+            </div>
+            <div class="certificate-item">
+                <h3>JavaScript</h3>
+                <p>Certificate of completion for a JavaScript course.</p>
+            </div>
+            <div class="certificate-item">
+                <h3>React</h3>
+                <p>Certificate of completion for a React course.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Contact Me</h3>
+            <p>Email: neha.pednekar@example.com</p>
+            <p>Phone: +1234567890</p>
+            <div class="footer-sci">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+    </footer>
+
     <script src="Script4.js"></script>
 </body>
 </html>
